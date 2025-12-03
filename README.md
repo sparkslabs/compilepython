@@ -1,2 +1,3 @@
 # compilepython
-Compiling Python! A resource for collecting and collating information around tools and best practices about what python constructs to use and how to actually do this, practically in your project.
+Compiling Python! A resource for collecting and collating information around tools and best practices about what python constructs are compileable and how to actually compile python, practically in your project.
+
