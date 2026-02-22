@@ -2,30 +2,9 @@
 title: [Full title of the piece]
 headline: "[≤32-char headline for title cards]"
 summary: |
-   [Four short paragraphs (≈920 characters total) that tell the entire story concisely.
+   [TBD -- Four short paragraphs (≈920 characters total) that tell the entire story concisely.
    Imagine this as a modern CEEFAX page: the complete miniature version of the idea.
    The first paragraph hooks; the rest provide context, discovery, and insight.]
-
-   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a risus
-   feugiat, semper velit vitae, tristique nibh. Nulla vel posuere massa.
-   Ut in velit eu turpis gravida mollis et ac orci. Vivamus quis mi quis
-   risus molestie
-
-   tristique. Nullam vel ex sed risus tristique ornare ut quis nulla.
-   Phasellus eget molestie justo. Nulla in fermentum justo. Praesent est
-   ex, accumsan ut tempor a, consequat sit amet ante. Etiam ac sapien vel
-   Duis ortitor. ex
-
-   posuere fermentum. Aliquam egestas pulvinar nulla. Pellentesque vitae
-   lacus diam. Duis ut risus mi. Duis eu ex mauris. In bibendum est ac mi
-   faucibus, sed condimentum nulla tristique. Pellentesque dapibus dolor
-   Suspendisse sed fringilla lorem.
-
-   at turpis ullamcorper varius. Curabitur ut sodales arcu. Fusce nisl
-   ipsum, tincidunt a mattis quis, venenatis sit amet orci. Nullam eget
-   sapien eu quam sodales sollicitudin non nec ipsum. Nullam mattis tempor
-   ante id ornare.
-
 date: YYYY-MM-DD
 type: [concepts | systems | legacy | tools]
 length: [approx runtime, e.g. "6m"]
@@ -33,48 +12,96 @@ words: [approx word count, e.g. 950]
 series: [optional grouping, e.g. "Software Parts"]
 project: [optional project name]
 tags: [list, of, key, words]
-related:
-  - [relative/link/to/related-page.html]
-  - [...]
 ---
+# CompilePython.com - "A TripAdvisor-like for Python compiler tools."
 
-# {{title}}
+## Guidance, Support and Advice for Compiling Python for Real-World Problems
 
-> **{{headline}}**  
-> {{summary}}
+(text currently adapted from my pitch to the SSI)
 
----
+## Background
 
-## Who, Why, What
-Who benefits — colleagues, students, collaborators, or your future self.
-A single-sentence hook or statement of the core idea.
-Why this caught your attention or matters to others right now.
+Python is popular and and much slower than compiled languages like C++, Rust, etc.
+Combine those two, and you have a green compute problem weighted by popularity.
+Low performance means more energy. More energy means more CO₂.
 
-## What (expanded), Why (broader meaning)
+CompilePython.com exists to address this
 
-What you built, observed, or reasoned through — the mechanics.
+## What This Project Is
 
-How this connects to wider themes (design, sustainability, pedagogy, creativity).
-Keep a quiet thread of “so what” relevance running through.
+CompilePython.com is:
 
+* A place for sharing problems and solving them
+* A place to share what works
+* A place to document what doesn’t
+* A place to describe required subsets
+* A place for real-world experience reports
 
-## Sketchpad
-(Optional) short code, diagram, console snippet, pseudocode, or visual idea.
+### It is not:
 
-## Context — where and when
+* An incomplete Python compiler
+* A silver bullet
+* A marketing site
+* It is for knowledge collation.
 
-## Observation — what happened
+### It will aim to connect
 
-## Inquiry — why or how it works
-##  Reflection — so what
+* Performance
+* Sustainability
+* Real-world engineering
+* Community collaboration
 
-## Next step
-What you might explore next or a question you’re leaving open.
+The goal is credible, maintainable, lean-first documentation and experience sharing.
 
+## Infrastructure
 
-## Links & references
+* Github: <https://github.com/sparkslabs/compilepython>
+* Google Groups: <https://groups.google.com/g/compilepython>
+* Mailing List:
+  * Send a blank email to <mailto:compilepython+subscribe@googlegroups.com>
+  * You will be asked to confirm your email - the simplest way is send a reply "OK" (especially if your mail provider rewrites emails)
+* Discussions: <https://github.com/sparkslabs/compilepython/discussions>
 
----
+<!-- TODO: Early adopter sign-up form ? -->
 
-**Related:** [link1](#) · [link2](#)  
-**Tags:** concept · concurrency · guild
+# Lightning Camps (2026)
+
+**CompilePython.com will run four Lightning Camps in 2026.**
+
+These are unconference / open space style events focused on:
+
+* Real-world experience reports
+* Compiler tool comparison
+* Python language Subset mapping
+* Sustainability implications
+* What actually works
+
+But they are also open to wider Python communities. 
+
+## Tentative Schedule
+
+* March 2026 – Online Lightning Camp
+* July 2026 – Online Lightning Camp
+* October 2026 – In-person / hybrid Lightning Camp
+* December 2026 – Online Lightning Camp
+
+Each camp will:
+
+* Be collaborative
+* Be practical
+* Produce artefacts
+* Feed directly into the living guidebook
+
+<!-- TODO: Registration link --> <!-- TODO: Code of Conduct --> <!-- TODO: Sponsorship information --> <!-- TODO: CFP details -->
+# BUT WHY?
+
+## Why This Matters
+
+My belief is that python isn’t going away, that compiling Python is hard.
+Knowledge is fragmented and experiences are scattered.
+If it were easy, everyone would already be doing it.
+I also firmly believe that we solve hard problems by working together.
+
+**CompilePython.com is about making that collaboration visible, credible, and sustainable.**
+
+It's a journey with a number of many possible routes and destinations. It's why I thought of TripAdvisor as my initial analogy.
