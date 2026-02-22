@@ -8,6 +8,11 @@ compile python, practically in your project.
 
 This repo and website is currently being bootstrapped.
 
+Page history:
+
+* Repo boostrapping - Feb 2026 (see the [repo history](https://github.com/sparkslabs/compilepython/commits/main/))
+* Last update 22/2/2026
+
 ---
 
 From pages/index.md --
