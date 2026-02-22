@@ -6,6 +6,8 @@ A resource for collecting and collating information around tools and best
 practices about what python constructs are compileable and how to actually
 compile python, practically in your project.
 
+**Think 'something like TripAdvisor for Python Compiler Tools', NOT 'yet another partial python compiler'**
+
 This repo and website is currently being bootstrapped.
 
 Page history:
