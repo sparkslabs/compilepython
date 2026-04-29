@@ -176,3 +176,15 @@ infrastructure possible.
 [SSI_FELLOWSHIP]: https://www.software.ac.uk/fellowship-programme/michael-sparks
 [KAMAELIA]: https://www.kamaelia.org/
 [GREEN_PHYS_ECS]: https://everse.software/RSQKit/greenphsecs_research_software_story
+
+# Local Development
+
+python -m venv compilepython-dev
+cd compilepython-dev
+source bin/activate
+git clone git@github.com:sparkslabs/compilepython.git
+
+
+
+
+
