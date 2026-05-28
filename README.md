@@ -183,6 +183,7 @@ python -m venv compilepython-dev
 cd compilepython-dev
 source bin/activate
 git clone git@github.com:sparkslabs/compilepython.git
+pip3 install -r requirements.txt
 
 
 
